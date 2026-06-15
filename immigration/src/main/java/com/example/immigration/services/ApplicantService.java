@@ -31,6 +31,7 @@ public class ApplicantService {
         applicant.setNationality(nationality);
         return saveApplicant(applicant);
     }
+
     public Applicant flagCriminalRecord(Long applicantId) {
         Applicant applicant = applicantRepository.findById(applicantId)
                 .orElseThrow(() -> new RuntimeException("Applicant not found"));
@@ -46,7 +47,16 @@ public class ApplicantService {
         }
         return applicant;
     }
-    public List<Applicant> getAllApplicants() { return applicantRepository.findAll(); }
-    public List<Applicant> getApplicantsByNationality(String nationality) { return applicantRepository.findByNationality(nationality); }
-    public Applicant getApplicantById(Long id) { return applicantRepository.findById(id).orElse(null); }
+
+    public List<Applicant> getAllApplicants() {
+        return applicantRepository.findAll();
+    }
+
+    public List<Applicant> getApplicantsByNationality(String nationality) {
+        return applicantRepository.findByNationality(nationality);
+    }
+
+    public Applicant getApplicantById(Long id) {
+        return applicantRepository.findById(id).orElse(null);
+    }
 }
