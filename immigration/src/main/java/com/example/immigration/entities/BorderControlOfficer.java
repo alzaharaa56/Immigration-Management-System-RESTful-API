@@ -8,6 +8,7 @@ public class BorderControlOfficer extends ImmigrationOfficer {
     public BorderControlOfficer() {
     }
 
+
     public String getAssignedCheckpoint() {
         return assignedCheckpoint;
     }

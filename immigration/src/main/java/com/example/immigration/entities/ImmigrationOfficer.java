@@ -9,11 +9,14 @@ public class ImmigrationOfficer extends Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String badgeNumber;
+    @Column(name = "officer_rank")
     private String rank;
     private int clearanceLevel;
     private boolean active;
     @ManyToOne
     @JoinColumn(name = "center_id")
+
+
     private ImmigrationCenter center;
     @OneToMany(mappedBy = "officer")
     @JsonIgnore
@@ -22,7 +25,7 @@ public class ImmigrationOfficer extends Person {
     public ImmigrationOfficer() {
     }
 
-    // Getters and Setters
+
     public Long getId() {
         return id;
     }
