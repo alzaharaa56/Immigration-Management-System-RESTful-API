@@ -1,10 +1,10 @@
-package com.example.immigration.controllers;
-import com.example.immigration.entities.BorderControlOfficer;
-import com.example.immigration.entities.ImmigrationOfficer;
-import com.example.immigration.services.OfficerService;
+package com.example.immigration.Controllers;
+import com.example.immigration.Entities.BorderControlOfficer;
+import com.example.immigration.Entities.ImmigrationOfficer;
+import com.example.immigration.Services.OfficerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import java.util.List;
+
 @RestController
 @RequestMapping("/api/officers")
 public class OfficerController {

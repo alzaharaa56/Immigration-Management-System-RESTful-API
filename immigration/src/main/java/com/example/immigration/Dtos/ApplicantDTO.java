@@ -1,4 +1,4 @@
-package com.example.immigration.dtos;
+package com.example.immigration.Dtos;
 public class ApplicantDTO {
     private String firstName;
     private String lastName;

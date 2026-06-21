@@ -1,6 +1,6 @@
-package com.example.immigration.controllers;
-import com.example.immigration.entities.Interview;
-import com.example.immigration.services.InterviewService;
+package com.example.immigration.Controllers;
+import com.example.immigration.Entities.Interview;
+import com.example.immigration.Services.InterviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

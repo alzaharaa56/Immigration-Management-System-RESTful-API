@@ -1,6 +1,6 @@
-package com.example.immigration.controllers;
-import com.example.immigration.entities.*;
-import com.example.immigration.repositories.*;
+package com.example.immigration.Controllers;
+import com.example.immigration.Entities.*;
+import com.example.immigration.Repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

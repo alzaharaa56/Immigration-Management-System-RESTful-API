@@ -1,4 +1,4 @@
-package com.example.immigration.entities;
+package com.example.immigration.Entities;
 import jakarta.persistence.Entity;
 @Entity
 public class AsylumSeeker extends Applicant {

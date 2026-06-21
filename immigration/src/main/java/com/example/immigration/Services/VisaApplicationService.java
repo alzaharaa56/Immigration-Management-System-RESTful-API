@@ -1,10 +1,10 @@
-package com.example.immigration.services;
-import com.example.immigration.entities.Applicant;
-import com.example.immigration.entities.ImmigrationOfficer;
-import com.example.immigration.entities.VisaApplication;
-import com.example.immigration.repositories.ApplicantRepository;
-import com.example.immigration.repositories.OfficerRepository;
-import com.example.immigration.repositories.VisaApplicationRepository;
+package com.example.immigration.Services;
+import com.example.immigration.Entities.Applicant;
+import com.example.immigration.Entities.ImmigrationOfficer;
+import com.example.immigration.Entities.VisaApplication;
+import com.example.immigration.Repositories.ApplicantRepository;
+import com.example.immigration.Repositories.OfficerRepository;
+import com.example.immigration.Repositories.VisaApplicationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

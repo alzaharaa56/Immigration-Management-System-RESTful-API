@@ -1,9 +1,9 @@
-package com.example.immigration.controllers;
-import com.example.immigration.dtos.ApplicantDTO;
-import com.example.immigration.entities.Applicant;
-import com.example.immigration.entities.AsylumSeeker;
-import com.example.immigration.entities.ImmigrationCenter;
-import com.example.immigration.services.ApplicantService;
+package com.example.immigration.Controllers;
+import com.example.immigration.Dtos.ApplicantDTO;
+import com.example.immigration.Entities.Applicant;
+import com.example.immigration.Entities.AsylumSeeker;
+import com.example.immigration.Entities.ImmigrationCenter;
+import com.example.immigration.Services.ApplicantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -14,7 +14,7 @@ public class ApplicantAndCenterController {
     private ApplicantService applicantService;
 
     @Autowired
-    private com.example.immigration.repositories.CenterRepository centerRepository;
+    private com.example.immigration.Repositories.CenterRepository centerRepository;
 
     @PostMapping("/centers")
     public ImmigrationCenter createCenter(@RequestBody ImmigrationCenter center) {

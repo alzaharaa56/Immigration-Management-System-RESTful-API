@@ -1,4 +1,4 @@
-package com.example.immigration.exceptions;
+package com.example.immigration.Exceptions;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

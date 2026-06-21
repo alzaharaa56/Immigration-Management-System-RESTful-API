@@ -1,6 +1,6 @@
-package com.example.immigration.controllers;
-import com.example.immigration.entities.VisaApplication;
-import com.example.immigration.services.VisaApplicationService;
+package com.example.immigration.Controllers;
+import com.example.immigration.Entities.VisaApplication;
+import com.example.immigration.Services.VisaApplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

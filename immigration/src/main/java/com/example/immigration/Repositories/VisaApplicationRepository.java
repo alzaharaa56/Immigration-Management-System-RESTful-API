@@ -1,5 +1,5 @@
-package com.example.immigration.repositories;
-import com.example.immigration.entities.VisaApplication;
+package com.example.immigration.Repositories;
+import com.example.immigration.Entities.VisaApplication;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 public interface VisaApplicationRepository extends JpaRepository<VisaApplication, Long> {

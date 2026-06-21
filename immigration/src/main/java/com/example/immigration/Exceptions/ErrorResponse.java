@@ -1,4 +1,4 @@
-package com.example.immigration.exceptions;
+package com.example.immigration.Exceptions;
 import java.time.LocalDateTime;
 public class ErrorResponse {
     private LocalDateTime timestamp;

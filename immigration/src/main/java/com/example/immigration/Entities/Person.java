@@ -1,4 +1,4 @@
-package com.example.immigration.entities;
+package com.example.immigration.Entities;
 import jakarta.persistence.MappedSuperclass;
 @MappedSuperclass
 public abstract class Person {
